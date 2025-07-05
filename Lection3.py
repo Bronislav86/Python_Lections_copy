@@ -44,13 +44,13 @@
 # import modul1
 # print(modul1.max1(5, 9))
 
-# ИЛИ
+# # ИЛИ
 
-# from modul1 import max1
+# # from modul1 import max1
 
-# print(max1(10, 9))
+# # print(max1(10, 9))
 
-# ------------------------------
+# # ------------------------------
 # import modul1 as m1
 
 # print(m1.max1(10, 9))
@@ -118,3 +118,5 @@
 # lis_1 = [1, 5, 8, 9 ,7 ,2 ,6]
 # merge_sort(lis_1)
 # print(lis_1)
+
+# def concatenatio(*params):
