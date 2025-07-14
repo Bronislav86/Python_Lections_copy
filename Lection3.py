@@ -55,7 +55,7 @@
 
 # print(m1.max1(10, 9))
 
-# ----------------------------------РКУРСИЯ------------------------------------
+# ----------------------------------РЕКУРСИЯ------------------------------------
 
 
 # def fib(n):
@@ -73,17 +73,17 @@
 # ---------------------БЫСТРАЯ СОРТИРОВКА------------------------------
 
 
-# def quic_sort(array):
+# def quick_sort(array):
 #     if len(array) <= 1:
 #         return array
 #     else:
 #         pivot = array[0]
 #     less = [i for i in array[1:] if i <= pivot]
 #     greater = [i for i in array[1:] if i > pivot]
-#     return quic_sort(less) + [pivot] + quic_sort(greater)
+#     return quick_sort(less) + [pivot] + quick_sort(greater)
 
 
-# print(quic_sort([10, 5, 2]))
+# print(quick_sort([10, 5, 2]))
 
 # ------------------------------СОРТИРОВКА СЛИЯНИЕМ------------------------
 
@@ -104,12 +104,12 @@
 #                 nums[k] = right[j]
 #                 j += 1
 #             k += 1
-            
+
 #         while i < len(left):
 #             nums[k] = left[i]
 #             i += 1
 #             k += 1
-            
+
 #         while j < len(right):
 #             nums[k] = right[j]
 #             j += 1
