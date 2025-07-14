@@ -48,7 +48,7 @@
 #     operator n
 
 # else:
-    
+
 #     operator n + 1
 
 #     operator n + 2
@@ -59,9 +59,9 @@
 
 # username = input('Ведите имя: ')
 # if username == 'Маша':
-#     print('Ураб это же МАША')
+#     print('Ура это же МАША')
 # elif username == 'Марина':
-#     print('Я так ждал Васб Марина')
+#     print('Я так ждал Васю Марина')
 # elif username == 'Ильнар':
 #     print('Ильнар - топ')
 # else:
@@ -69,7 +69,6 @@
 
 # a = 'qwerty'
 
-#print(a[0])
+# print(a[0])
 # for i in a:
 #     print(i)
-
